@@ -22,10 +22,3 @@ task testNg(type: Test) {
 
 }
 
-task junit4(type: Test) {
-    useJUnit()
-}
-
-task junit5(type: Test) {
-    useJUnitPlatform()
-}
